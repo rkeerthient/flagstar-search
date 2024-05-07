@@ -8,7 +8,6 @@ import {
   TemplateConfig,
   TemplateRenderProps,
 } from "@yext/pages";
-import Locator from "../components/Locator";
 import PageLayout from "../components/page-layout";
 import "../index.css";
 import SearchPage from "../SearchPage";
@@ -25,7 +24,7 @@ export const getHeadConfig: GetHeadConfig<
   TemplateRenderProps
 > = (): HeadConfig => {
   return {
-    title: "LDS | Search",
+    title: " Search",
     charset: "UTF-8",
     viewport: "width=device-width, initial-scale=1",
     tags: [

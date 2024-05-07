@@ -11,6 +11,7 @@ import {
 import Locator from "../components/Locator";
 import PageLayout from "../components/page-layout";
 import "../index.css";
+import SearchPage from "../SearchPage";
 
 export const config: TemplateConfig = {
   name: "search",
@@ -44,7 +45,7 @@ const Search: Template<TemplateRenderProps> = ({ document }) => {
     <>
       <PageLayout>
         <div className="centered-container">
-          <Locator verticalKey={"locations"}></Locator>
+          <SearchPage></SearchPage>
         </div>
       </PageLayout>
     </>
